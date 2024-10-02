@@ -1,0 +1,289 @@
+
+div.header {
+    background:url(./Images/drew-coffman-1872.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90vh;
+}
+.layer {
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 100%;
+}
+body {
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main-nav ul, .main-nav li {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.bakery-light {
+    width: 200px;
+}
+.main-nav  {
+    text-align: center;
+}
+.main-nav img{
+    margin-right: 25%;
+}
+a:hover {
+    color: gold;
+    transition: .3s;
+}
+.main-content {
+    text-align: center;
+    color: white;
+    margin-top: 200px;
+    font-size: 20px;
+}
+.main-content p {
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+.main-content h1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 70px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.learn-more {
+    font-size: 19px;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #8E7754;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 15px;
+}
+.contact-us {
+    border-radius: 5px;
+    font-size: 19px;
+    padding: 15px;
+    border: none;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.learn-more:hover {
+    background-color: white;
+    color: black;
+    transition: 0.4s;
+}
+.contact-us:hover {
+    background-color: white;
+    color: black;
+    transition: 0.4s;
+}
+.center {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.who-we-are {
+    padding: 100px;
+}
+.who-we-are img {
+    width: 600px;
+}
+.who-we-are-content {
+    display: inline-block;
+    font-size: 18px;
+    vertical-align:bottom;
+    margin-bottom: 100px;
+}
+.who-we-are-content h2, .who-we-are-content p {
+    margin-left: 50px;
+}
+ul {
+    list-style-type: none;
+}
+.who-we-are-content ul {
+    line-height: 60px;
+    color: gray;
+}
+.who-we-are-content ul img {
+    width: 30px;
+    vertical-align: middle;
+    border: 2px solid rgba(128, 128, 128, 0.23);
+    border-radius: 50%;
+    padding: 3px;
+    margin-right: 15px;
+}
+.our-location {
+    margin-top: 90px;
+    background-color: #F8F8F8;
+    padding: 100px;
+    font-size: 18px;
+}
+.location-center {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.our-location h2 , .who-we-are-content h2 , .our-baking h2{
+    color: rgb(69, 68, 68);
+    margin-bottom: 30px;
+}
+.our-location p , .who-we-are p{
+    color: gray;
+    line-height: 30px;
+}
+.our-location img {
+    width: 45%;
+    margin-left: 30px;
+}
+.our-location-content{
+    display: inline-block;
+}
+.our-location img {
+    vertical-align: middle;
+}
+.item {
+    width: 30%;
+    float: left;
+    padding: 10px;
+    text-align: center;
+}
+.our-baking img {
+    width: 100%;
+}
+.our-baking-center {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 100px;
+    text-align: center;
+    color: gray; 
+}
+.our-baking h2 , .our-baking h3 {
+    color: rgba(0, 0, 0, 0.799);
+}
+.our-baking p {
+    line-height: 30px;
+}
+.clear-fix {
+    clear: both;
+}
+.contact-info-content {
+    float: left;
+    width: 50%;
+    padding: 20px;
+    font-size: 18px;
+}
+.google-map {
+    float: right;
+    width: 40%;
+}
+.contact-info-center {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contact-info {
+    background-color: #F8F8F8;
+    color: gray;
+    padding: 100px;
+}
+.contact-info h2 {
+    color: #353330;
+}
+.contact-info ul img {
+    background-color:#8e7754b1;
+    border: 2px solid rgba(128, 128, 128, 0.23);
+    width: 20px;
+    border-radius: 40%;
+    padding: 5px;
+    vertical-align:middle;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+.footer {
+    background-color: #403D38;
+    color: rgb(137, 137, 137);
+    font-size: 15px;
+    padding-top: 60px;
+}
+.footer h2 {
+    margin-bottom: 30px;
+    color: rgb(249, 248, 248);
+}
+.item-list .p1 {
+    line-height: 20px;
+    margin-right: 50px;
+}
+.item-list {
+    float: left;
+    width: 25%;
+}
+.footer .item-list p{
+    display: inline-block;
+}
+.footer-center {
+    line-height: 7px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+.contact-details img {
+    width: 25px;
+    margin: 10px;
+    vertical-align: middle;
+}
+.we-are-special img {
+    width: 20px;
+    margin-right: 10px;
+}
+.opening-hours img {
+    width: 20px;
+    margin-right: 10px;
+}
+.opening-hours span , .we-are-special span{
+    margin-right: 10px;
+}
+.contact-details a {
+    color: gray;
+}
+.contact-details a:hover {
+    color: white;
+    transition: 0.4s;
+}
+.our-social .p2 {
+    color: rgb(137, 137, 137);
+    font-size: 13px;
+}
+.our-social {
+    background-color: #353330;
+    padding: 50px 0 50px 0;
+}
+.our-social-center {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.our-social a img {
+    width: 30px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+hr{
+    width: 80%;
+    border: 1px solid rgba(128, 128, 128, 0.281);
+    text-align: left;
+    margin-left: 0;
+}
+.photo-footer {
+    margin-bottom: 20px;
+}
